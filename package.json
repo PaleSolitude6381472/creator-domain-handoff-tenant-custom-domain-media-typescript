@@ -1,0 +1,20 @@
+{
+  "name": "creator-domain-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/ship_creator_domain.ts",
+    "serve": "tsx src/domain_webhook.ts",
+    "test": "tsx --test test/domain_webhook.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
